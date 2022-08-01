@@ -22,6 +22,4 @@ from geonode.urls import urlpatterns
 
 # You can register your own urlpatterns here
 urlpatterns += [
-    url(r'^geocollections/', include('geocollections.urls')),
 ]
-

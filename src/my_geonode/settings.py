@@ -61,7 +61,7 @@ LANGUAGES = (
 )
 
 if PROJECT_NAME not in INSTALLED_APPS:
-    INSTALLED_APPS += (PROJECT_NAME, 'geocollections')
+    INSTALLED_APPS += (PROJECT_NAME, )
 
 # Location of url mappings
 ROOT_URLCONF = os.getenv('ROOT_URLCONF', '{}.urls'.format(PROJECT_NAME))
