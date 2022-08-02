@@ -67,3 +67,6 @@ local_settings.py
 Vagrantfile
 /.env
 /src/celerybeat-schedule
+
+node_modules/
+package-lock.json
